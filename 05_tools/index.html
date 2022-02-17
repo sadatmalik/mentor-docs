@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="author" content="Martin Breuss">
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Tools - CodingNomads Mentor Docs</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../css/theme.css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Tools";
+    var mkdocs_page_input_path = "05_tools.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> CodingNomads Mentor Docs</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="..">README</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../01_requirements/">Requirements</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../02_new_mentors/">Onboarding</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../03_mentorship_process/">Mentorship</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../04_code_labs/">Labs & Projects</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../04_how_to_mentor/">Philosophy</a>
+                    </li>
+                </ul>
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Tools</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#essential-software">Essential Software</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#time-tracking-with-toptracker">Time Tracking With TopTracker</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#set-up-toptracker">Set Up TopTracker</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#track-mentorship-time">Track Mentorship Time</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#mentor_admin-and-community-support-projects">Mentor_Admin and Community Support Projects</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#wait-but-what-if-i-forget-turn-on-my-tracker-or-even-worse-forget-to-turn-it-off">Wait, but what if I forget turn on my tracker?!  Or, even worse, forget to turn it off!?!</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#generate-and-submit-your-invoices">Generate and Submit Your Invoices</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#scheduling-with-google-calendar">Scheduling With Google Calendar</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#booking-meetings-with-calendly">Booking Meetings With Calendly</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#recording-meetings-on-google-calendar">Recording Meetings On Google Calendar</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#video-sessions-and-recordings-with-zoom">Video Sessions and Recordings With Zoom</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#set-up-zoom">Set Up Zoom</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#schedule-a-student-meeting">Schedule A Student Meeting</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#recording-1-on-1-sessions">Recording 1-On-1 Sessions</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#progress-check-ins-with-the-learning-platform">Progress Check-Ins With The Learning Platform</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#code-reviews-with-github">Code Reviews With GitHub</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#student-communication-templates">Student Communication Templates</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#other-useful-tools">Other Useful Tools</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#worldtimebuddy">Worldtimebuddy</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#doodle">Doodle</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#there">There</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../06_community/">Community</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../07_payment/">Payment</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../08_checklist/">Checklist</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../09_faq/">FAQs</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../10_feedback/">Feedback</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../11_bookmarks/">Bookmarks</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../12_templates/">Templates</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../13_student_notes/">Student Notes</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../14_tips/">Practical Tips</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../15_home_faq/">StayAtHome FAQ</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../16_code_of_conduct/">Code Of Conduct</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">CodingNomads Mentor Docs</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Tools</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="https://github.com/CodingNomads/mentor-docs/edit/master/docs/05_tools.md"
+          class="icon icon-github"> Edit on GitHub</a>
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="tools-for-codingnomads-mentors">Tools for CodingNomads Mentors<a class="headerlink" href="#tools-for-codingnomads-mentors" title="Permanent link">&para;</a></h1>
+<p>This page contains a collection of quick how-to guides for using the necessary tools to be an effective CodingNomads Mentor. It starts with a list of the absolutely essential tools, then describes how to use them in more detail.</p>
+<div class="toc">
+<ul>
+<li><a href="#tools-for-codingnomads-mentors">Tools for CodingNomads Mentors</a><ul>
+<li><a href="#essential-software">Essential Software</a></li>
+<li><a href="#time-tracking-with-toptracker">Time Tracking With TopTracker</a><ul>
+<li><a href="#set-up-toptracker">Set Up TopTracker</a></li>
+<li><a href="#track-mentorship-time">Track Mentorship Time</a></li>
+<li><a href="#mentor_admin-and-community-support-projects">Mentor_Admin and Community Support Projects</a></li>
+<li><a href="#wait-but-what-if-i-forget-turn-on-my-tracker-or-even-worse-forget-to-turn-it-off">Wait, but what if I forget turn on my tracker?!  Or, even worse, forget to turn it off!?!</a></li>
+<li><a href="#generate-and-submit-your-invoices">Generate and Submit Your Invoices</a></li>
+</ul>
+</li>
+<li><a href="#scheduling-with-google-calendar">Scheduling With Google Calendar</a><ul>
+<li><a href="#booking-meetings-with-calendly">Booking Meetings With Calendly</a></li>
+<li><a href="#recording-meetings-on-google-calendar">Recording Meetings On Google Calendar</a></li>
+</ul>
+</li>
+<li><a href="#video-sessions-and-recordings-with-zoom">Video Sessions and Recordings With Zoom</a><ul>
+<li><a href="#set-up-zoom">Set Up Zoom</a></li>
+<li><a href="#schedule-a-student-meeting">Schedule A Student Meeting</a></li>
+<li><a href="#recording-1-on-1-sessions">Recording 1-On-1 Sessions</a></li>
+</ul>
+</li>
+<li><a href="#progress-check-ins-with-the-learning-platform">Progress Check-Ins With The Learning Platform</a></li>
+<li><a href="#code-reviews-with-github">Code Reviews With GitHub</a></li>
+<li><a href="#student-communication-templates">Student Communication Templates</a></li>
+<li><a href="#other-useful-tools">Other Useful Tools</a><ul>
+<li><a href="#worldtimebuddy">Worldtimebuddy</a></li>
+<li><a href="#doodle">Doodle</a></li>
+<li><a href="#there">There</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<h2 id="essential-software">Essential Software<a class="headerlink" href="#essential-software" title="Permanent link">&para;</a></h2>
+<p>You'll need these tools in order to be able to mentor a CodingNomads student:</p>
+<ul>
+<li><a href="./#time-tracking-with-toptracker">TopTracker</a></li>
+<li><a href="./#recording-meetings-on-google-calendar">Google Calendar</a></li>
+<li><a href="./#video-sessions-and-recordings-with-zoom">Zoom</a></li>
+<li><a href="./#progress-check-ins-with-the-learning-platform">Learning Platform</a></li>
+<li><a href="./#code-reviews-with-github">GitHub</a></li>
+</ul>
+<p>Please make sure to install these programs and request access where necessary. You'll find more detailed descriptions in the dedicated sections.</p>
+<h2 id="time-tracking-with-toptracker">Time Tracking With TopTracker<a class="headerlink" href="#time-tracking-with-toptracker" title="Permanent link">&para;</a></h2>
+<p>Please use <strong>TopTracker</strong> to record your time spent mentoring.</p>
+<h3 id="set-up-toptracker">Set Up TopTracker<a class="headerlink" href="#set-up-toptracker" title="Permanent link">&para;</a></h3>
+<p>To get started, please follow these steps:</p>
+<ul>
+<li><strong>Sign up</strong> for a free account by clicking <em>Get Started as a Freelancer</em>.</li>
+<li><strong>Notify</strong> Jared (or Ryan) to add you to the <em>Onboarding</em> project. You'll receive an invitation from <code>admin@codingnomads.co</code> to join the project called <em>Onboarding</em> as a <em>Freelancer</em>.</li>
+<li><strong>Track</strong> the time you spend on onboarding under that project. You can also add manual time entries, for the time you tracked before we managed to invite you to the project.</li>
+<li><strong>Download</strong> <a href="https://www.toptal.com/tracker">TopTracker for Desktop</a>, if you prefer to track your time in a dedicated app.</li>
+</ul>
+<p><strong>Skip Payoneer Setup:</strong> We <em>don't</em> use Payoneer for payment. You can skip that section while setting up your TopTracker account.</p>
+<h3 id="track-mentorship-time">Track Mentorship Time<a class="headerlink" href="#track-mentorship-time" title="Permanent link">&para;</a></h3>
+<p>Once you've started working with a student, we will set up a <strong>Project</strong> with your <strong>student's name</strong> and invite you as a <em>Freelancer</em>. From then on, you'll track the time you spend mentoring this student in their dedicated project. If you are working with multiple students, make sure to record your time for each student in the correct project. </p>
+<p>To minimize your effort, when logging time to a student project, you can limit your tracking entries to the following keywords:</p>
+<ol>
+<li>call</li>
+<li>forum</li>
+<li>slack</li>
+<li>code review</li>
+<li>organization</li>
+</ol>
+<p>Watch the screencast below, which shows you how mentorship time tracking with TopTracker works in practice:</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Kho8-5TcapE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>Please follow this workflow to keep track of the time you spend working with your student. <strong>Your compensation is based on the recorded tixme, and the invoices you generate (see next step).</strong></p>
+<h3 id="mentor_admin-and-community-support-projects">Mentor_Admin and Community Support Projects<a class="headerlink" href="#mentor_admin-and-community-support-projects" title="Permanent link">&para;</a></h3>
+<p>We will also invite you to two projects called <em>mentor_admin</em> and <em>Community Support</em>. <em>Mentor_admin</em> can be used for miscellaneous administrative activities such as internal meetings (e.g., <em>Python Mentors Meeting</em>). <em>Community Support</em> can be used to answer questions on the forum or the general slack channels (i.e., helping students for which you don’t have a specific project). </p>
+<p><strong>When charging to these two projects, please put both a keyword (from the list above) and a specific description in the TopTracker activity description.</strong> For example: “Slack: supporting Tiffany, connecting to databases, general JDBC” or “Forum: responded to this question: https://forum.codingnomads.co/t/lab-9-data-wrangle-a-dataset/1244”.  This desription format helps us to understand how to allocate budget for these two projects.</p>
+<h3 id="wait-but-what-if-i-forget-turn-on-my-tracker-or-even-worse-forget-to-turn-it-off">Wait, but what if I forget turn on my tracker?!  Or, even worse, forget to turn it off!?!<a class="headerlink" href="#wait-but-what-if-i-forget-turn-on-my-tracker-or-even-worse-forget-to-turn-it-off" title="Permanent link">&para;</a></h3>
+<p>On its web application, in the "my activities" tab, TopTracker allows you to manually add, edit, or delete time.</p>
+<p><img style="display: inline-block;" alt="how to edit time on TopTracker" src="../images/editing_time.png"/> </p>
+<h3 id="generate-and-submit-your-invoices">Generate and Submit Your Invoices<a class="headerlink" href="#generate-and-submit-your-invoices" title="Permanent link">&para;</a></h3>
+<p>On the first day of each month, please submit an invoice for each of your TopTracker projects for the previous month. Please see the screenshot below for this process, and refer to the <a href="../07_payment/#monthly-payment-process">Monthly Payment Process</a> for more details about invoicing and payments.</p>
+<ol>
+<li>Click <em>Invoices</em> tab on the left</li>
+<li>Click the green button called <em>Create Invoice</em> in the top right </li>
+<li>Select the project you want to invoice for</li>
+<li>Adjust dates to the first and last day of the previous month</li>
+<li>Click <em>Save Draft</em> and <em>Preview</em> in the bottom right</li>
+<li>Click <em>Send Invoice</em></li>
+</ol>
+<p><img alt="Select Dates for TopTracker Invoice" src="../images/toptracker_select_dates.png" /></p>
+<p>You need to submit a separate invoice for each of your students. Please submit all invoices each month in order to get paid.</p>
+<h2 id="scheduling-with-google-calendar">Scheduling With Google Calendar<a class="headerlink" href="#scheduling-with-google-calendar" title="Permanent link">&para;</a></h2>
+<p>You'll use <strong>Google Calendar</strong> for scheduling your student calls. If you don't have a Google account, please <a href="https://accounts.google.com/signup/v2/webcreateaccount?service=cl&amp;continue=https%3A%2F%2Fcalendar.google.com%2Fcalendar%2Frender&amp;gmb=exp&amp;biz=false&amp;flowName=GlifWebSignIn&amp;flowEntry=SignUp">sign up for one</a>.</p>
+<p><strong>Always invite "calendar@codingnomads.co" to all meetings</strong> </p>
+<p><strong>Also Please include the student's name in the meeting title</strong>.  For example "Ryan and Michael". This helps us to keep track of the student's meetings.   </p>
+<h3 id="booking-meetings-with-calendly">Booking Meetings With Calendly<a class="headerlink" href="#booking-meetings-with-calendly" title="Permanent link">&para;</a></h3>
+<p>To make life easier for you, you can use <a href="https://calendly.com/">Calendly</a>. It's a handy tool that allows you to block out your availability and let students book meeting times with you through a shareable link.</p>
+<p>Using their free tier, you can specify the times you are available for meetings, then send your student a link where they can choose a time that works for them.</p>
+<p>Calendly can significantly reduce the effort needed to find a time that works for both you and your students. It also integrates with Google Calendar.</p>
+<h3 id="recording-meetings-on-google-calendar">Recording Meetings On Google Calendar<a class="headerlink" href="#recording-meetings-on-google-calendar" title="Permanent link">&para;</a></h3>
+<p>Every student meeting you have needs to be recorded on our <strong>CN Scheduling Calendar</strong> at <code>calendar@codingnomads.co</code>. We use this information to keep track of how far along students are in their subscription.</p>
+<p>This means you need to:</p>
+<ul>
+<li><strong>invite</strong> <code>calendar@codingnomads.co</code> to every student meeting</li>
+<li><strong>update</strong> any changes to your student meetings on these shared calendar events</li>
+</ul>
+<p>Sometimes, students will need to cancel or move a meeting. Make sure to update the calendar by moving or deleting the meeting.</p>
+<p><strong>We can only guarantee payment for meetings that show up on this calendar.</strong></p>
+<p>You will also be invited to a calendar invite that represents the student's last week at CodingNomads.  If you and your student decide not to meet one week, please update the calendar to add a week to the student's program.  For example, if your student requests a week off for christmas (encouraged!), and their last date is January 1st, then update the calendar to show that their last date is now January 8th.  If there is any confusion on this topic, please ask Jared or Michael. </p>
+<h2 id="video-sessions-and-recordings-with-zoom">Video Sessions and Recordings With Zoom<a class="headerlink" href="#video-sessions-and-recordings-with-zoom" title="Permanent link">&para;</a></h2>
+<p>We use <strong>Zoom</strong> for 1-on-1 calls, because it allows screen sharing and screen recording. Watch the <a href="https://www.youtube.com/watch?v=E0XmIIXcrEY">official video walkthrough</a> for installing the client and scheduling a meeting.</p>
+<h3 id="set-up-zoom">Set Up Zoom<a class="headerlink" href="#set-up-zoom" title="Permanent link">&para;</a></h3>
+<p>Follow the official steps to get started with Zoom:</p>
+<ol>
+<li><a href="https://zoom.us/download">Download Zoom client</a></li>
+<li><a href="https://zoom.us/download">Install the browser extension</a> (same page, further down)</li>
+<li>Connect your Google account</li>
+</ol>
+<p>Installing the browser extension is optional, and you can schedule all your meetings directly from the Zoom client, if you prefer.</p>
+<h3 id="schedule-a-student-meeting">Schedule A Student Meeting<a class="headerlink" href="#schedule-a-student-meeting" title="Permanent link">&para;</a></h3>
+<p>This screencast and the text below it walk you through how to schedule a meeting using Zoom, and how to make sure it's recorded on the shared <em>CN Mentorship Calendar</em>.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lHRX9b_NmEA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>The text below sums up the content of the video in writing, and shows how to schedule the meeting using Zoom's browser extension:</p>
+<p>Click <em>Schedule a Meeting</em> in the browser extension:</p>
+<p><img alt="Scheduling a Zoom meeting from the browser extension" src="../images/zoom_schedule_meeting.png" /></p>
+<p>You'll see the Zoom settings dialog pop up:</p>
+<p><img alt="Zoom setting dialog" src="../images/zoom_settings.png" /></p>
+<p>Click <em>Continue</em>. Zoom will take you to a Google Calendar event creation dialogue that has the Zoom-related information already filled in.</p>
+<p>Set the meeting time and use the scheduling options to make it a recurring meeting:</p>
+<p><img alt="Option to set a recurring meeting" src="../images/zoom_recurring.png" /></p>
+<p>Use the calendar dropdown to change the calendar from your default personal calendar to our shared <em>CN Mentorship Calendar</em>:</p>
+<p><img alt="Change the default calendar to our Mentor calendar" src="../images/zoom_change_calendar.jpg" /></p>
+<p>Finally, invite your student by adding their email address and send the message:</p>
+<p><img alt="Invite your student to the zoom meeting" src="../images/zoom_invite_guests.png" /></p>
+<p>Your Zoom link will be included in the calendar invite the student receives. Double-check that the meeting you set up is a recurring event, and that it's recorded in the <em>CN Mentorship Calendar</em>. It should appear in that calendar also for the coming week.</p>
+<h3 id="recording-1-on-1-sessions">Recording 1-On-1 Sessions<a class="headerlink" href="#recording-1-on-1-sessions" title="Permanent link">&para;</a></h3>
+<p>We used to ask mentors to record every meeting: <strong>this is no longer required</strong>  Instead, please encourage your students to record sessions if they'd like to.</p>
+<h2 id="progress-check-ins-with-the-learning-platform">Progress Check-Ins With The Learning Platform<a class="headerlink" href="#progress-check-ins-with-the-learning-platform" title="Permanent link">&para;</a></h2>
+<p>You'll need to keep track of how your student is progressing through the course materials in order to give them actionable feedback and help them keep moving.</p>
+<p>Make sure that you have an active account on the <a href="https://platform.codingnomads.co/learn/">CodingNomads learning platform</a>. After you've completed onboarding, you'll get upgraded to the role of <em>Non-editing Teacher</em> to be able to access everything. If you need that access and don't have it yet, please contact <img style="display: inline-block;" alt="contact address for ryan" src="../images/email_ryan.png"/>.</p>
+<p>To find your students' <strong>progress logs</strong>, go to the main course page of your course. You'll see a button in the top left called <em>Participants</em>. Click it:</p>
+<p><img alt="Access Participants" src="../images/report_participants.png" /></p>
+<p>This brings you to a page with a list of all course participants. Use the search field to find your student:</p>
+<p><img alt="Overview page showing all Participants of the course" src="../images/report_participants_view.jpg" /></p>
+<p>Then click on the student's name to access their profile page.</p>
+<p><strong>Tip: Bookmark this page for each of your students, so you'll be able to access it quickly. Checking up on your students' progress shoud be a simple routine task that doesn't take much of your time.</strong></p>
+<p>On the right of that page, you can see a <em>Reports</em> section. Feel free to explore the different types of reports:</p>
+<p><img alt="How to access the 'Outline Report' for a student" src="../images/report_click_outline.jpg" /></p>
+<p>The <strong><em>Outline Report</em></strong> gives you a quick overview of which resources your student accessed, how often, and when. When a student has accessed a page, it'll show a view count and a date next to the resource name:</p>
+<p><img alt="Outline Report showing pages visited by the student" src="../images/report_seen.png" /></p>
+<p>If they haven't accessed the resource yet, these two columns will be missing:</p>
+<p><img alt="Outline Report showing pages not yet visited by the student" src="../images/report_unseen.png" /></p>
+<p>The <strong><em>Outline Report</em></strong> allows you to quickly understand where your student is currently at, whether they are making progress, and it can help you understand what they might be struggling with.</p>
+<h2 id="code-reviews-with-github">Code Reviews With GitHub<a class="headerlink" href="#code-reviews-with-github" title="Permanent link">&para;</a></h2>
+<p>We use GitHub inline comments for code reviews. Check out the forum post <a href="http://forum.codingnomads.co/t/about-the-code-reviews-category/38">Giving and getting code reviews</a> for suggestions on how to give helpful and effective code reviews.</p>
+<p>If you are not familiar with giving code reviews in GitHub, check out our <a href="../14_tips/#do-code-reviews-on-github">Guide on giving GitHub Reviews</a>.</p>
+<h2 id="student-communication-templates">Student Communication Templates<a class="headerlink" href="#student-communication-templates" title="Permanent link">&para;</a></h2>
+<p>You can set communication snippets up as <a href="https://www.lifewire.com/how-to-set-up-and-use-email-templates-in-gmail-1172103">Gmail templates</a> or copy-paste the content from the resource linked below. Please replace the fields marked with <code>{ALL_CAPS}</code>.</p>
+<p>Feel free to personalize as much as you want to. These templates are meant to make it quicker for you to get started communicating with your students, but <em>personal</em> communication is priceless for good mentorship results.</p>
+<ul>
+<li><a href="../12_templates/">Student Communication Templates</a></li>
+</ul>
+<p>Please add any relevant repeating communications that you create so that other mentors can benefit from it, or let us know when you think that something is missing.</p>
+<h2 id="other-useful-tools">Other Useful Tools<a class="headerlink" href="#other-useful-tools" title="Permanent link">&para;</a></h2>
+<p>The following tools have been useful for some mentors. You can include them in your workflow if they seem helpful for you.</p>
+<h3 id="worldtimebuddy">Worldtimebuddy<a class="headerlink" href="#worldtimebuddy" title="Permanent link">&para;</a></h3>
+<p>A great tool for scheduling across multiple time zones. I use this all the time.</p>
+<p><img alt="WorldTimeBuddy view with different time zones displayed" src="../images/worldtimebuddy.png" /></p>
+<ul>
+<li><a href="https://www.worldtimebuddy.com/">https://www.worldtimebuddy.com/</a></li>
+</ul>
+<h3 id="doodle">Doodle<a class="headerlink" href="#doodle" title="Permanent link">&para;</a></h3>
+<p>Helpful for remotely deciding for a call time, especially when there are many people involved. Can also be helpful for scheduling your first orientation call with your student.</p>
+<ul>
+<li><a href="https://doodle.com/create">https://doodle.com/create</a></li>
+</ul>
+<p>However, setting up your <a href="https://calendly.com/">Calendly</a> account is probably more convenient and easier to handle.</p>
+<h3 id="there">There<a class="headerlink" href="#there" title="Permanent link">&para;</a></h3>
+<p>A MacOS app that helps keeping track of all your students' current times across multiple time zones. Nicely integrated in OS X and helps to quickly check up on whether someone's up or sleeping.</p>
+<p><img alt="Screenshot of There being used and showing different people with their time zones" src="../images/there.png" /></p>
+<ul>
+<li><a href="https://there.pm/">https://there.pm/</a></li>
+</ul>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../06_community/" class="btn btn-neutral float-right" title="Community">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../04_how_to_mentor/" class="btn btn-neutral" title="Philosophy"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/CodingNomads/mentor-docs/" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href="../04_how_to_mentor/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../06_community/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
